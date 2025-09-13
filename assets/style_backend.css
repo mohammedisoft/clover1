@@ -1,0 +1,145 @@
+/* wp-content\plugins\dashboard-qahwtea\assets\style_backend.css */
+.branch-meta-box {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    padding: 15px;
+    background: #fff;
+}
+.branch-meta-box p {
+    margin-bottom: 15px;
+}
+.branch-meta-box label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+.branch-meta-box input[type="text"],
+.branch-meta-box input[type="number"],
+.branch-meta-box textarea,
+.branch-meta-box select,
+.branch-meta-box input[type="time"] {
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.branch-meta-box textarea {
+    resize: vertical;
+}
+#branch_hours_container {
+    margin-top: 20px;
+}
+.hours-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.hours-section h4 {
+    margin-top: 0;
+    color: #0073aa;
+    font-size: 1.3em;
+}
+.shifts-container {
+    margin-top: 10px;
+}
+.shift {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.shift input[type="time"] {
+    flex: 1;
+    margin-right: 10px;
+    padding: 6px;
+}
+.shift button.remove-shift {
+    background: #dc3232;
+    border: none;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.shift button.remove-shift:hover {
+    background: #a00;
+}
+button.add-shift,
+button.add-shift-all {
+    background: #0073aa;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+button.add-shift:hover,
+button.add-shift-all:hover {
+    background: #005177;
+}
+.operating-mode {
+    margin-bottom: 20px;
+}
+.operating-mode label {
+    margin-right: 10px;
+}
+.description {
+    font-size: 13px;
+    color: #777;
+}
+/* Modal Styles */
+#get-coordinates-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+}
+#get-coordinates-modal .modal-content {
+    max-width: 400px;
+    margin: 100px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+#get-coordinates-modal h3 {
+    margin-top: 0;
+}
+#get-coordinates-modal input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#get-coordinates-modal button {
+    background: #0073aa;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#get-coordinates-modal button:hover {
+    background: #005177;
+}
+#get-coordinates-modal .cancel-btn {
+    margin-left: 10px;
+    background: #777;
+}
+
+.wp-list-table .column-taxonomy-subscription_category {
+    width: 200px; 
+    white-space: nowrap; 
+}
+

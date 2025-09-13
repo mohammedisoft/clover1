@@ -1,0 +1,86 @@
+/* File: assets/dq-banner.css */
+
+/* General meta box styling */
+.banner-meta-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Paragraph styling inside the meta box */
+.banner-meta-box p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Container for banner images: a grid with three columns and a gap */
+#banner-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Styling for each banner image row */
+.banner-image-row {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: calc(33.33% - 10px); /* Three columns */
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    border-radius: 4px;
+}
+
+/* Banner image preview styling */
+.banner-image-preview {
+    margin-bottom: 10px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Images within the preview */
+.banner-image-preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Styling for the product select dropdown */
+.banner-product-select {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Styling for buttons inside each banner row */
+.banner-image-row .button {
+    margin: 5px 2px;
+    font-size: 13px;
+    padding: 5px 10px;
+}
+
+/* Styling for the "Add Banner Image" button */
+#add-banner-image {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#add-banner-image:hover {
+    background-color: #006799;
+}

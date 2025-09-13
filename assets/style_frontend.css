@@ -1,0 +1,21 @@
+/* wp-content\plugins\dashboard-qahwtea\assets\style_frontend.css */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.single_variation .woocommerce-variation-price {
+    display: none !important;
+}
+.my-subscriptions-title {
+    font-size: 24px !important;
+    background: transparent !important;
+    color: #000 !important;
+    margin-bottom: 10px;
+}
