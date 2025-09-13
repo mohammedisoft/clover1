@@ -1,0 +1,24 @@
+{
+  "translation-revision-date": "2024-11-26T20:58:39+00:00",
+  "generator": "WP-CLI\/2.11.0",
+  "source": "build\/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "messages",
+        "lang": "Canadian French",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "(0002) Transaction could not be processed. Please contact support.": [
+        "(0002) Impossible de traiter la transaction. Veuillez communiquer avec le support."
+      ],
+      "(0001) Transaction could not be processed. Please contact support.": [
+        "(0001) Impossible de traiter la transaction. Veuillez communiquer avec le support."
+      ],
+      "Clover Card Payment Method": [
+        "Mode de paiement avec carte Clover"
+      ]
+    }
+  }
+}

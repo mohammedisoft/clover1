@@ -1,0 +1,331 @@
+# Copyright (C) 2025 Clover eCommerce
+# This file is distributed under the BSD-3-Clause-Clear.
+msgid ""
+msgstr ""
+"Project-Id-Version: Clover Payments for WooCommerce 2.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/clover-payments-for-woocommerce\n"
+"POT-Creation-Date: 2025-01-29T19:14:44+00:00\n"
+"PO-Revision-Date: 2025-01-30T19:17:39+00:00\n"
+"Last-Translator: Clover\n"
+"Language-Team: Clover\n"
+"Language: Canadian French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: woo-clv-payments\n"
+
+#. Plugin Name of the plugin
+#: woo-clover-payments.php
+msgid "Clover Payments for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: woo-clover-payments.php
+msgid "https://wordpress.org/plugins/clover-payments-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+#: woo-clover-payments.php
+msgid "Accepting payments in WooCommerce using Clover eCommerce."
+msgstr ""
+
+#. Author of the plugin
+#: woo-clover-payments.php
+msgid "Clover eCommerce"
+msgstr ""
+
+#. Author URI of the plugin
+#: woo-clover-payments.php
+msgid "https://www.clover.com"
+msgstr ""
+
+#: includes/class-woo-clv-admin-capture.php:55
+#: includes/class-woo-clv-admin.php:625
+msgid "Capture Charge"
+msgstr "Frais de capture"
+
+#: includes/class-woo-clv-admin-capture.php:117
+msgid "Orders captured via Clover."
+msgstr "Commandes capturées via Clover."
+
+#: includes/class-woo-clv-admin-capture.php:125
+msgid "Transaction could not be processed through Clover."
+msgstr "La transaction n'a pas pu être traitée par Clover."
+
+#: includes/class-woo-clv-admin.php:36
+msgid "Clover Payments"
+msgstr "Clover Paiements"
+
+#: includes/class-woo-clv-admin.php:37
+msgid "Clover simplifies the lives of small businesses with tailored, all-in-one payments, and business management systems that can be implemented quickly and grow with the business."
+msgstr "Clover simplifie la vie des petites entreprises grâce à des systèmes de paiement et de gestion d'entreprise sur-mesure (et tout-en-un) qui peuvent être mis en œuvre rapidement et s'adapter à la croissance de l'entreprise."
+
+#: includes/class-woo-clv-admin.php:147
+msgid "Enabled"
+msgstr "Activés"
+
+#: includes/class-woo-clv-admin.php:150 includes/class-woo-clv-admin.php:220
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/class-woo-clv-admin.php:151 includes/class-woo-clv-admin.php:221
+msgid "No"
+msgstr "Non"
+
+#: includes/class-woo-clv-admin.php:153
+msgid "Clover Payments is available in the United States and Canada. Please select \"Yes\" to enable in checkout."
+msgstr "Les paiements Clover sont disponibles aux États-Unis et au Canada. Veuillez sélectionner «Oui» pour les activer à l’étape du paiement"
+
+#: includes/class-woo-clv-admin.php:158
+msgid "Title"
+msgstr "Titre"
+
+#: includes/class-woo-clv-admin.php:160
+msgid "Appears as the title of the payment form on the checkout page."
+msgstr "Apparaît comme le titre du formulaire de paiement sur la page de paiement."
+
+#: includes/class-woo-clv-admin.php:161
+msgid "Credit/Debit Card"
+msgstr "Carte de crédit/débit"
+
+#: includes/class-woo-clv-admin.php:164
+msgid "Environment"
+msgstr "Environnement"
+
+#: includes/class-woo-clv-admin.php:166
+msgid "We provide Merchants and Developers the option to test their integrations against their Clover Sandbox accounts before going live. Select “Production” to send transactions to your live Clover account."
+msgstr "Nous offrons aux commerçants et développeurs l'option de tester leurs intégrations dans leur compte test avant le lancement. Sélectionnez «Production» lorsque vous souhaitez envoyer les transactions à votre environnement de production."
+
+#: includes/class-woo-clv-admin.php:169
+msgid "Sandbox"
+msgstr "Compte test"
+
+#: includes/class-woo-clv-admin.php:170
+msgid "Production"
+msgstr "Production"
+
+#: includes/class-woo-clv-admin.php:174
+msgid "Sandbox Merchant ID"
+msgstr "ID du compte test du commerçant"
+
+#: includes/class-woo-clv-admin.php:179
+msgid "Sandbox Public Key"
+msgstr "Clé publique du compte test"
+
+#: includes/class-woo-clv-admin.php:181
+msgid "Please visit <a href=\"https://sandbox.dev.clover.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Clover Developer Portal</a> to obtain a Public Sandbox API Key."
+msgstr "Veuillez visiter le <a href='https://sandbox.dev.clover.com/' target='_blank' rel='noopener noreferrer'>Portail des Développeurs Clover</a> pour obtenir la clé publique du compte test."
+
+#: includes/class-woo-clv-admin.php:185
+msgid "Sandbox Private Key"
+msgstr "Clé privée du compte test"
+
+#: includes/class-woo-clv-admin.php:187
+msgid "Please visit <a href=\"https://sandbox.dev.clover.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Clover Developer Portal</a> to obtain a Private Sandbox API Key."
+msgstr "Veuillez visiter le <a href='https://sandbox.dev.clover.com/' target='_blank' rel='noopener noreferrer'>Portail des Développeurs Clover</a> pour obtenir la clé privée du compte test."
+
+#: includes/class-woo-clv-admin.php:191
+msgid "Merchant ID"
+msgstr "ID du commerçant"
+
+#: includes/class-woo-clv-admin.php:196
+msgid "Public Key"
+msgstr "Clé publique"
+
+#: includes/class-woo-clv-admin.php:198
+msgid "Please visit <a href=\"https://clover.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Clover Merchant Portal</a> to obtain a Public API Key."
+msgstr "Veuillez visiter le <a href='https://clover.com/' target='_blank' rel='noopener noreferrer'>Portail des Commerçants Clover</a> pour obtenir la clé publique."
+
+#: includes/class-woo-clv-admin.php:202
+msgid "Private Key"
+msgstr "Clé privée"
+
+#: includes/class-woo-clv-admin.php:204
+msgid "Please visit <a href=\"https://clover.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Clover Merchant Portal</a> to obtain a Private API Key."
+msgstr "Veuillez visiter le <a href='https://clover.com/' target='_blank' rel='noopener noreferrer'>Portail des Commerçants Clover</a> pour obtenir la clé privée."
+
+#: includes/class-woo-clv-admin.php:208
+msgid "Payment Action"
+msgstr "Action au niveau du paiement"
+
+#: includes/class-woo-clv-admin.php:212
+msgid "Authorize and Capture"
+msgstr "Autoriser et saisir"
+
+#: includes/class-woo-clv-admin.php:213
+msgid "Authorize"
+msgstr "Autoriser"
+
+#: includes/class-woo-clv-admin.php:217
+msgid "Debug"
+msgstr "Déboguer"
+
+#: includes/class-woo-clv-admin.php:265
+msgid "Merchant ID is invalid."
+msgstr "L’ID du commerçant est invalide."
+
+#: includes/class-woo-clv-admin.php:288
+msgid "Sandbox Merchant ID is invalid."
+msgstr "L'ID du compte test du commerçant est invalide."
+
+#: includes/class-woo-clv-admin.php:316
+msgid "Enable SSL to continue payment in production mode"
+msgstr "Activer SSL pour continuer le paiement en mode production"
+
+#: includes/class-woo-clv-admin.php:498
+#: includes/class-woo-clv-errormapper.php:48
+msgid "Transaction could not be processed. Please try again."
+msgstr "Impossible de traiter la transaction. Veuillez réessayer."
+
+#: includes/class-woo-clv-admin.php:526
+msgid "Awaiting offline payment."
+msgstr "En attente de paiement hors ligne."
+
+#: includes/class-woo-clv-admin.php:552 includes/class-woo-clv-admin.php:702
+msgid "An error has occurred; please try again."
+msgstr "Une erreur s’est produite : veuillez réessayer."
+
+#: includes/class-woo-clv-admin.php:640
+msgid "Please select the correct order."
+msgstr "Veuillez sélectionner la bonne commande."
+
+#: includes/class-woo-clv-admin.php:648
+msgid "Unable to capture canceled, refunded, or failed orders."
+msgstr "Impossible de capturer pour les commandes annulées, remboursées ou échouées."
+
+#: includes/class-woo-clv-admin.php:656
+msgid "Already captured: unable to process again."
+msgstr "Déjà capturé : Impossible de traiter à nouveau."
+
+#. translators: %1$s %2$s %3$s: amount txid message
+#: includes/class-woo-clv-admin.php:680
+msgid "Captured %1$s - Capture ID: %2$s - Status: %3$s"
+msgstr "%1$s capturé - ID de capture : %2$s - État : %3$s"
+
+#: includes/class-woo-clv-errormapper.php:26
+#: includes/class-woo-clv-errormapper.php:43
+msgid "Transaction could not be processed. Please contact support."
+msgstr "Impossible de traiter la transaction. Veuillez communiquer avec le support."
+
+#: includes/class-woo-clv-errormapper.php:27
+msgid "Transaction declined. Please verify card information or use a different card."
+msgstr "Transaction refusée. Veuillez vérifier les informations de la carte ou utiliser une autre carte."
+
+#: includes/class-woo-clv-errormapper.php:28
+msgid "Transaction failed; card information is incorrect."
+msgstr "Échec de la transaction : les informations de la carte incorrectes"
+
+#: includes/class-woo-clv-errormapper.php:29
+msgid "The transaction has already been processed."
+msgstr "La transaction a déjà été saisie."
+
+#: includes/class-woo-clv-errormapper.php:30
+msgid "The transaction has already been refunded."
+msgstr "La transaction a déjà été remboursée"
+
+#: includes/class-woo-clv-errormapper.php:31
+msgid "Email ID is invalid; please try again with a valid email ID."
+msgstr "ID de courriel invalide : indiquez un ID de courriel valide et réessayez."
+
+#: includes/class-woo-clv-errormapper.php:32
+msgid "Card expired: please try again with a valid card number."
+msgstr "Carte expirée : indiquez un numéro de carte valide et réessayez."
+
+#: includes/class-woo-clv-errormapper.php:33
+msgid "Incorrect CVV: please try again with a valid CVV."
+msgstr "Code CVC incorrect : indiquez un code de vérification de la carte valide et réessayez."
+
+#: includes/class-woo-clv-errormapper.php:34
+msgid "Incorrect card number: please try again with a valid card number."
+msgstr "Numéro de carte invalide : indiquez un numéro de carte valide et réessayez."
+
+#: includes/class-woo-clv-errormapper.php:35
+msgid "Card brand is invalid or not supported. Please use a valid card and try again."
+msgstr "Marque de carte non valable ou non prise en charge. Veuillez utiliser une carte valide et réessayer."
+
+#: includes/class-woo-clv-errormapper.php:36
+msgid "Invalid transaction amount. Please contact support."
+msgstr "Montant de la transaction invalide. Veuillez communiquer avec le support."
+
+#: includes/class-woo-clv-errormapper.php:37
+msgid "Card is invalid: please try again with a valid card."
+msgstr "Carte invalide : veuillez réessayer avec une carte valide"
+
+#: includes/class-woo-clv-errormapper.php:38
+msgid "Invalid tip amount: please correct and try again."
+msgstr "Montant du pourboire invalide : veuillez le modifier et réessayer."
+
+#: includes/class-woo-clv-errormapper.php:39
+msgid "Invalid tax amount: please correct and try again."
+msgstr "Montant des taxes incorrect : veuillez le modifier et réessayer."
+
+#: includes/class-woo-clv-errormapper.php:40
+msgid "Unable to process transaction."
+msgstr "Impossible de traiter la transaction"
+
+#: includes/class-woo-clv-errormapper.php:41
+msgid "The order has already been paid for."
+msgstr "La commande a déjà été réglée."
+
+#: includes/class-woo-clv-errormapper.php:42
+msgid "Transaction could not be processed."
+msgstr "Impossible de traiter la transaction."
+
+#: includes/class-woo-clv-errormapper.php:44
+msgid "Transaction could not be processed due to incorrect or invalid information."
+msgstr "Impossible de traiter la transaction en raison des informations de la carte incorrectes ou invalides."
+
+#: includes/class-woo-clv-errormapper.php:45
+msgid "Transaction could not be processed; please re-enter card details and try again."
+msgstr "Impossible de traiter la transaction : veuillez saisir à nouveau les informations de la carte et réessayer."
+
+#: includes/class-woo-clv-errormapper.php:46
+msgid "Unauthorized. Please contact support."
+msgstr "Non autorisé. Veuillez communiquer avec le support."
+
+#: includes/class-woo-clv-errormapper.php:47
+msgid "Transaction failed; invalid information provided."
+msgstr "Échec de la transaction ; informations invalides fournies."
+
+#: includes/class-woo-clv-gateway.php:35
+msgid "Please enter refund value."
+msgstr "Veuillez entrer la valeur du remboursement."
+
+#: includes/class-woo-clv-gateway.php:45
+msgid "Please select a valid order to refund."
+msgstr "Veuillez sélectionner une commande valide à rembourser."
+
+#: includes/class-woo-clv-gateway.php:57
+msgid "Unable to process partial void transaction."
+msgstr "Impossible de traiter la transaction d'annulation partielle."
+
+#. translators: %1$s %2$s %3$s: amount txid refund-message
+#: includes/class-woo-clv-gateway.php:80
+msgid "Refunded %1$s - Refund ID: %2$s - Status: %3$s"
+msgstr "Remboursé %1$s – ID Remboursé: %2$s – Statut: %3$s"
+
+#. translators: %1$s %2$s %3$s: amount txid refund-message
+#: includes/class-woo-clv-gateway.php:84
+msgid "Voided %1$s - Void ID: %2$s - Status: %3$s"
+msgstr "Annulé %1$s - ID Annulé: %2$s - Statut: %3$s"
+
+#: includes/helper/trait-woo-clv-apihelper.php:187
+msgid "Unable to complete transaction."
+msgstr "Impossible d'effectuer la transaction."
+
+#: woo-clover-payments.php:42
+msgid "WooCommerce Clover Payment Gateway: We require WooCommerce to be installed and active. You can download it here"
+msgstr "Passerelle de paiement Clover pour WooCommerce : WooCommerce doit être installé et actif. Vous pouvez le télécharger ici"
+
+#: build/index.js:1
+msgid "(0002) Transaction could not be processed. Please contact support."
+msgstr "(0002) Impossible de traiter la transaction. Veuillez communiquer avec le support."
+
+#: build/index.js:1
+msgid "(0001) Transaction could not be processed. Please contact support."
+msgstr "(0001) Impossible de traiter la transaction. Veuillez communiquer avec le support."
+
+#: build/index.js:1
+msgid "Clover Card Payment Method"
+msgstr "Mode de paiement avec carte Clover"
